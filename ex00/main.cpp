@@ -5,11 +5,11 @@ void randomChump(std::string name);
 
 int main()
 {
-    Zombie* heapZombie = newZombie("Foo");
-    heapZombie->announce();
-    delete heapZombie;
+	Zombie* heapZombie = newZombie("Foo");
+	heapZombie->announce();
+	delete heapZombie;
 
-    randomChump("Bar");
+	randomChump("Bar");
 
-    return (0);
+	return (0);
 }
